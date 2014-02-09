@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0073c5f7ea9b4f42bfccfe398a2975f8" Name="Diagram1">
+        <EntityTypeShape EntityType="sprojectModel.Friend" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.Message" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.Notification" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.Post" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.Request" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.User" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sprojectModel.webpages_Membership" Width="1.5" PointX="9.92388300500991" PointY="29.357495261988369" />
+        <EntityTypeShape EntityType="sprojectModel.webpages_OAuthMembership" Width="1.5" PointX="2.2746934398425247" PointY="21.064345697436643" />
+        <EntityTypeShape EntityType="sprojectModel.webpages_Roles" Width="1.5" PointX="8.5393209664799841" PointY="22.353501836933894" />
+        <AssociationConnector Association="sprojectModel.webpages_UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
